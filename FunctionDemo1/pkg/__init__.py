@@ -1,7 +1,7 @@
 """
 #
-# File        : main.py
-# Created     ：11/10/2021 19:04
+# File        : __init__.py.py
+# Created     ：18/10/2021 17:24
 # Author      ：Angela Brennan
 # Version     ：v1.0.0
 # Licencing   : (C) 2021 Angela Brennan, LYIT
@@ -22,13 +22,3 @@ if __name__ == '__main__':
       Returns:
         none
     '''
-
-    student_id = [('L134532', 'L295320')]
-    modules = ['Java_ooprogramming', 'Python_Scripting']
-    Java_grades = {'L134532': '70', 'L295320': '59'}
-    Python_grades = {'L134532': '64', 'L295320': '82'}
-
-    '''print(Python_grades)
-    print(Java_grades)'''
-
-    print('(0) \t\t(')
