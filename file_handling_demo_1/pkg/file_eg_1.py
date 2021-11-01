@@ -11,14 +11,22 @@
 """
 
 if __name__ == '__main__':
-    '''
-      Main method of application
 
-      File Processing
-      Parameters:
+    def file_processing(file_name):
+        """
+        Open a file with a list of students and print their details.
+        Parameters:
+        file_name name of file with students name, lnumber and course details
+        Returns:
         none
-
-      Returns:
-        none
-    '''
-def file_
+        """
+        lines = open(file_name).readlines()
+        # lines.sort() #this method can be used to sort a file
+        for line in lines:
+            student, l_num, course = line.split(",")
+        print("Student Name:{0} \nLNumber: \t{1} \nCourse
+        \t\t{2}\n".format(student, l_num, course))
+        # Practice: Could you format the string in another way?
+        # Press the green button in the gutter to run the script.
+if __name__ == '__main__':
+ file_processing("sample.txt")
