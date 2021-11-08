@@ -6,7 +6,7 @@
 # Version     ：v1.0.0
 # Licencing   : (C) 2021 Angela Brennan, LYIT
 #            Available under GNU Public License (GPL)
-# Description ：Q1 Connect to virtual machine using ssh port
+# Description ：Q1. Connect to virtual machine using ssh port
 #
 """
 
